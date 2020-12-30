@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: echo "commitid: $GITHUB_SHA" > _config-github.yml
+    - name: store git hash for site generation
+      run: echo "commitid: $GITHUB_SHA" > _config-github.yml
     - name: Build site
       shell: 'script -q -e -c "bash {0}"'
       run: ./docker_jekyll_build.sh
