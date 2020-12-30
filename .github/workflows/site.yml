@@ -13,5 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build site
+      shell: 'script -q -e -c "bash {0}"'
       run: ./docker_jekyll_build.sh
         
