@@ -26,7 +26,7 @@ But this was enough for me to have a usable app.
 If you want to give it a try you will find a link to the apk in
 [the repo packages](https://github.com/aabeling/you-coach-you/packages/551990):
 
-![qr code for the repo packages](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fgithub.com%2Faabeling%2Fyou-coach-you%2Fpackages%2F551990&qzone=1&margin=0&size=200x200&ecc=L "repo packages")
+![qr code for the repo packages](https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fgithub.com%2Faabeling%2Fyou-coach-you%2Fpackages%2F551990&qzone=1&margin=0&size=200x200&ecc=L "repo packages")
 
 (qr code is provided by http://goqr.me/de/)
 
