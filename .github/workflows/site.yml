@@ -2,6 +2,8 @@ name: Jekyll site CI
 
 on:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
   # Allows you to run this workflow manually from the Actions tab
