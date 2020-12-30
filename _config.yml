@@ -217,6 +217,8 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - docker_jekyll_build.sh
+  - docker_jekyll_serve.sh
 
 plugins:
   - jekyll-paginate
@@ -225,3 +227,4 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
+commitid: unknown
