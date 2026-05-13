@@ -13,14 +13,14 @@ jobs:
   build_job:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
     - name: store git hash for site generation
       run: 'echo "commitid: $GITHUB_SHA" > _config-github.yml'
     - name: Build site
       shell: 'script -q -e -c "bash {0}"'
       run: ./docker_jekyll_build.sh
     - name: rsync deployment
-      uses: burnett01/rsync-deployments@4.1
+      uses: burnett01/rsync-deployments@23a557dceb19f9bb960ef40cf75cab5e9b37ec1f
       with:
         switches: -rv --delete
         path: _site/
