@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "message": "Aaaarg!",
+  "license": "CC BY 4.0 -  https://creativecommons.tankerkoenig.de",
+  "data": "MTS-K",
+  "status": "ok",
+  "station": {
+    "id": "69ad1928-e972-421b-a33c-4319da73deaa",
+    "name": "Sönke Mau",
+    "brand": "NORDOEL",
+    "street": "Kieler Straße ",
+    "houseNumber": "38",
+    "postCode": 24211,
+    "place": "Preetz",
+    "openingTimes": [
+      {
+        "text": "Mo-Fr",
+        "start": "05:30:00",
+        "end": "21:00:00"
+      },
+      {
+        "text": "Samstag",
+        "start": "07:00:00",
+        "end": "21:00:00"
+      },
+      {
+        "text": "Sonntag, Feiertag",
+        "start": "08:00:00",
+        "end": "21:00:00"
+      }
+    ],
+    "overrides": [],
+    "wholeDay": false,
+    "isOpen": true,
+    "e5": 1.979,
+    "e10": 1.919,
+    "diesel": 1.919,
+    "lat": 54.245395,
+    "lng": 10.276979,
+    "state": null
+  }
+}
